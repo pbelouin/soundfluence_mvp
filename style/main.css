@@ -3,7 +3,7 @@
   text-align: center;
   color: white;
   background: url("../assets/images/soundfluence_background.png")no-repeat scroll 0 0 / 100% transparent !important;
-  height: 600px;
+  height: 650px;
   width: 100%;
   min-height: 498px;
   -webkit-background-size: cover;
@@ -25,7 +25,8 @@ html, body {
 }
 
 h1, h2 {
-  font-family: "museo-sans" !important; 
+  font-family: "museo-sans" !important;
+  letter-spacing: 0.0600em;
 }
 
 h1 {
@@ -36,10 +37,13 @@ h1 {
 }
 
 p {
-	font-size: 90%;
+	font-size: 95%;
 	font-weight: 500;
 }
 
+.jumbotron p {
+  letter-spacing: 0.0300em;
+}
 
 .col-lg-6 h2 {
 	font-size: 160%;
@@ -50,7 +54,11 @@ p {
 	padding-right: 100px;
 }
 
+.brand {
+  text-align:left;
+  font-weight: 700;
 
+}
 .container {
 	width: 100% !important;
 	padding: 0px;
@@ -64,11 +72,11 @@ p {
 	background-color: #60cde4;
 }
 
-.footer {
-	padding-right: 100px;
-	text-align: right;
+.align-rgt {
+	padding-top: 40px;
+  text-align: right;
 }
-.footer a {
+.align-rgt a {
 	margin-left:10px;
 }
 
@@ -83,10 +91,15 @@ p {
 }
 
 
+
 form input.ng-invalid.ng-dirty {
   background-color: #f0c3a8;
 }
     
 form input.ng-valid.ng-dirty {
   background-color: #c1f0a1;
+}
+
+input[type="text"],input[type="email"] {
+   height: 43px;
 }
