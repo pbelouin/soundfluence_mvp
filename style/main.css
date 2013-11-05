@@ -5,6 +5,7 @@
   background: url("../assets/images/soundfluence_background.png")no-repeat scroll 0 0 / 100% transparent !important;
   height: 600px;
   width: 100%;
+  min-height: 498px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
