@@ -81,3 +81,12 @@ p {
 	margin-top: 80px;
 	text-align: center;
 }
+
+
+form input.ng-invalid.ng-dirty {
+  background-color: #f0c3a8;
+}
+    
+form input.ng-valid.ng-dirty {
+  background-color: #c1f0a1;
+}
