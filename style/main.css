@@ -106,3 +106,12 @@ form input[type="email"].ng-valid.ng-dirty {
 input[type="text"],input[type="email"] {
    height: 43px;
 }
+
+
+.footer {
+  text-align: right;
+  margin-top:40px;
+}
+.footer a{
+  margin-left: 20px;
+} 

@@ -47,7 +47,6 @@ We will keep you updated soon.</p>
         </div>
       </div>
 
-      <!-- Example row of columns -->
       <div class="row-fluid">
         <div class="col-lg-6">
           <h2><span class="glyphicon glyphicon-tasks"></span> Skill Rating</h2>
@@ -56,16 +55,9 @@ We will keep you updated soon.</p>
         <div class="col-lg-6">
           <h2><span class="glyphicon glyphicon-search"></span> Find artists close to you</h2>
           <p>We want you to find great artists to work with.Thats why we created a new way of discovering artists that either live right next door to you or are in your genre.</p>
+          <p class ="footer"><a href="#">Contact</a><a href="#">Legal</a></p>
         </div>
       </div>
-      <div class="row-fluid">
-        <div class="col-lg-6">
-        </div>
-        <div class="col-lg-6 align-rgt">
-           <p><a href="#">Contact</a>&nbsp;<a href="#">Legal</a></p>
-        </div>
-      </div>
-    </div>
     </div> <!-- /container -->
     <!-- Site footer -->
     <!-- Bootstrap core JavaScript
