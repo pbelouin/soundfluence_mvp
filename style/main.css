@@ -96,11 +96,11 @@ p {
 }
 
 form input[type="email"].ng-invalid.ng-dirty {
-  background-color: #f0c3a8;
+  background-color: #ead1d0;
 }
     
 form input[type="email"].ng-valid.ng-dirty {
-  background-color: #c1f0a1;
+  background-color: #dfead0;
 }
 
 input[type="text"],input[type="email"] {
