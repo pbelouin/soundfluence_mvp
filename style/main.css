@@ -91,7 +91,9 @@ p {
 	text-align: center;
 }
 
-
+.glyphicon {
+  font-size: 70%;
+}
 
 form input.ng-invalid.ng-dirty {
   background-color: #f0c3a8;
