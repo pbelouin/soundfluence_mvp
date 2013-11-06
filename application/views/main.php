@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="module">
   <head>
-    <title>Soundfluence</title>
+    <title>SOUNDFLUENCE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
