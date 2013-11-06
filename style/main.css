@@ -95,11 +95,11 @@ p {
   font-size: 80%;
 }
 
-form input.ng-invalid.ng-dirty {
+form input[type="email"].ng-invalid.ng-dirty {
   background-color: #f0c3a8;
 }
     
-form input.ng-valid.ng-dirty {
+form input[type="email"].ng-valid.ng-dirty {
   background-color: #c1f0a1;
 }
 
