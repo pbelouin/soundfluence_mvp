@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="module">
   <head>
-    <title>SOUNDFLUENCE</title>
+    <title>Soundfluence</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -26,7 +26,7 @@
     <div class="container">
       <!-- Jumbotron -->
       <div class="jumbotron masthead" ng-controller="Ctrl">
-        <p class="brand">Soundfluence</p>
+        <p class="brand">SOUNDFLUENCE</p>
         <h1>Create music together with Soundfluence</h1>
         <p class="lead">Share and discuss your music with a community of talented artists.</p>
         <div class="center" ng-hide="success" ng-animate="'fadeOut'">
