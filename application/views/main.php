@@ -33,7 +33,7 @@
           <form role="form" ng-submit="submit()">
             <div class="form-group">
               <p>Apply for our beta now.</p>
-              <input type="text" id="inputName" placeholder="Name" ng-model="user.name">
+              <input type="text" class="form-control" id="inputName" placeholder="Name" ng-model="user.name">
             </div>
             <div class="form-group">
               <input type="email" class="form-control" id="inputEmail" placeholder="Email" ng-model="user.email" required>
