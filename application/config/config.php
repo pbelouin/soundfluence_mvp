@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/~pbelouin/soundfluence/soundfluence_mvp/';
-
+//$config['base_url']	= 'http://localhost/~pbelouin/soundfluence/soundfluence_mvp/';
+$config['base_url']	= 'http://http://108.174.149.222/~soundflu/';
 /*
 |--------------------------------------------------------------------------
 | Index File
