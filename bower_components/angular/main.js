@@ -16,8 +16,32 @@ App.controller('Ctrl', function($scope, $location, $http) {
           $scope.success = false;
           console.log($scope.success);
       });
-
   };
+});
 
+
+App.controller('contactCtrl', function($scope, $location, $http) {
 
 });
+
+App.controller('legalCtrl', function($scope, $location, $http) {
+
+});
+
+
+App.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/contact', {
+        templateUrl: 'bower_components/angular/templates/contact.html',
+        controller: 'contactCtrl'
+      }).
+      when('/legal', {
+        templateUrl: 'bower_components/angular/templates/legal.html',
+        controller: 'legalCtrl'
+      }).
+      otherwise({
+        templateUrl: 'bower_components/angular/templates/main.html',
+        controller: 'Ctrl'
+      });
+  }]);
