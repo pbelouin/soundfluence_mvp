@@ -16,6 +16,7 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="bower_components/angular/main.js"></script>
+    <script type="text/javascript" src="bower_components/angularui/ui-bootstrap.min.js"</script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-45361594-1', 'soundfluence.com');
@@ -48,14 +49,14 @@ We will keep you updated soon.</p>
       </div>
 
       <div class="row-fluid">
-        <div class="col-lg-6">
+        <div class="col-lg-6 lft">
           <h2><span class="glyphicon glyphicon-tasks"></span> Skill Rating</h2>
           <p>We want you to become better. That is why we invented Skill Rating. Skill Rating lets you give and get more detailed feedback on songs and helps you shape great tunes! </p>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 rgt">
           <h2><span class="glyphicon glyphicon-search"></span> Find artists close to you</h2>
           <p>We want you to find great artists to work with.Thats why we created a new way of discovering artists that either live right next door to you or are in your genre.</p>
-          <p class ="footer"><a href="#">Contact</a><a href="#">Legal</a></p>
+          <p class ="align-rgt"><a href="#">Contact</a><a href="#">Legal</a></p>
         </div>
       </div>
     </div> <!-- /container -->
