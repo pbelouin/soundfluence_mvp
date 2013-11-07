@@ -5,7 +5,7 @@
   background: url("../assets/images/soundfluence_background.png")no-repeat transparent !important;
   height: 650px;
   width: 100%;
-  min-height: 498px;
+  min-height: 650px;
   
   -moz-border-radius: 0px !important;
   -webkit-border-radius: 0px !important;
@@ -75,7 +75,7 @@ p {
 	padding: 0px;
 }
 .form-group, .btn-primary {
-	width: 300px;
+	width: 260px;
 	text-align: center;
 }
 
