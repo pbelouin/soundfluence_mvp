@@ -2,15 +2,11 @@
   background: transparent !important;
   text-align: center;
   color: white;
-  background: url("../assets/images/soundfluence_background.png")no-repeat scroll 0 0 / 100% transparent !important;
+  background: url("../assets/images/soundfluence_background.png")no-repeat transparent !important;
   height: 650px;
   width: 100%;
   min-height: 498px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+  
   -moz-border-radius: 0px !important;
   -webkit-border-radius: 0px !important;
   border-radius: 0px !important;
@@ -49,10 +45,25 @@ p {
 	font-size: 160%;
 }
 
-.col-lg-6 {
-	padding-left: 100px;
-	padding-right: 100px;
+.lft {
+	padding-left: 60px;
+	padding-right: 60px;
 }
+
+
+.rgt {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.align-rgt {
+  text-align: right;
+  margin-top:60px;
+}
+.align-rgt a {
+  margin-left:10px;
+}
+
 
 .brand {
   text-align:left;
@@ -72,15 +83,6 @@ p {
   margin-top: -4px;
 	background-color: #60cde4;
 }
-
-.align-rgt {
-	padding-top: 40px;
-  text-align: right;
-}
-.align-rgt a {
-	margin-left:10px;
-}
-
 
 .center form {
     display:inline-block;
@@ -106,12 +108,3 @@ form input[type="email"].ng-valid.ng-dirty {
 input[type="text"],input[type="email"] {
    height: 43px;
 }
-
-
-.footer {
-  text-align: right;
-  margin-top:60px;
-}
-.footer a{
-  margin-left: 20px;
-} 
