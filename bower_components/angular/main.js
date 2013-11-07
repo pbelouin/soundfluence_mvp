@@ -1,6 +1,5 @@
 var App = angular.module('module', []);
 
-
 // Set up a controller and define a model
 App.controller('Ctrl', function($scope, $location, $http) {
 
@@ -29,8 +28,9 @@ App.controller('legalCtrl', function($scope, $location, $http) {
 });
 
 
-App.config(['$routeProvider',
-  function($routeProvider) {
+App.config(['$locationProvider','$routeProvider',
+  function($locationProvider,$routeProvider) {
+    //$locationProvider.html5Mode(true);
     $routeProvider.
       when('/contact', {
         templateUrl: 'bower_components/angular/templates/contact.html',
