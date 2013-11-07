@@ -3,9 +3,9 @@
   text-align: center;
   color: white;
   background: url("../assets/images/soundfluence_background.png")no-repeat transparent !important;
-  height: 680px;
+  height: 660px;
   width: 100%;
-  min-height: 680px;
+  min-height: 660px;
   
   -moz-border-radius: 0px !important;
   -webkit-border-radius: 0px !important;
@@ -83,7 +83,7 @@ p {
 }
 
 .center {
-	margin-top: 80px;
+	margin-top: 75px;
 	text-align: center;
 }
 
