@@ -3,13 +3,19 @@ html, body {
 }
 
 .jumbotron{
-  background: transparent !important;
+  
   text-align: center;
   color: white;
-  background: url("../assets/images/soundfluence_background.png")no-repeat transparent !important;
+  background: url("../assets/images/soundfluence_background.png") no-repeat center center fixed transparent;
   height: 680px;
   width: 100%;
   min-height: 680px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   
   -moz-border-radius: 0px !important;
   -webkit-border-radius: 0px !important;
