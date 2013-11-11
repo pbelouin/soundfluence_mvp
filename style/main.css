@@ -26,15 +26,12 @@ html, body {
     .form-group p {
      font-size:10% !important;
     }
-
-    .jumn
-
 }
 
 .jumbotron{  
   text-align: center;
   color: white;
-  background: url("../assets/images/soundfluence_background.png") no-repeat center transparent;
+  background: url("../assets/images/soundfluence_background.png") no-repeat center center transparent;
   height: 830px;
   width: 100%;
   min-height: 830px;
