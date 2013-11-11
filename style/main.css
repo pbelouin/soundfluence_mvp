@@ -3,16 +3,41 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "museo-sans" !important;
+    font-family: "museo-sans-rounded" !important;
+}
+
+@media (max-width: 800px) {
+    .brand {
+        display:none !important;
+    }
+
+    .jumbotron h1 {
+      margin-top:10px;
+      font-size: 110% !important;
+    }
+    .jumbotron p {
+      font-size: 60% !important;
+    }
+
+    .center {
+      margin-top: 30px !important;
+    }
+
+    .form-group p {
+     font-size:10% !important;
+    }
+
+    .jumn
+
 }
 
 .jumbotron{  
   text-align: center;
   color: white;
-  background: url("../assets/images/soundfluence_background.png") no-repeat center center fixed transparent;
-  height: 680px;
+  background: url("../assets/images/soundfluence_background.png") no-repeat center transparent;
+  height: 830px;
   width: 100%;
-  min-height: 680px;
+  min-height: 830px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,22 +55,21 @@ html, body {
 /* style for title h1 */
 h1 {
   margin-top: 100px;
-  font-size: 180% !important;
-  font-family: "museo-sans" !important;
-  font-weight: 700;
-  letter-spacing: 0.0550em;
+  font-size: 150% !important;
+  font-family: "museo-sans-rounded" !important;
+  font-weight: 500;
 }
 
 /* size and weight for subtitle*/
 p {
-  font-size: 95%;
-  font-weight: 500;
+  font-size: 80% !important;
+  font-weight: 300;
 }
 
 
 
 h1, h2 {
-  font-family: "museo-sans" !important;
+  font-family: "museo-sans-rounded" !important;
 }
 
 
@@ -79,6 +103,9 @@ h1, h2 {
 .form-group, .btn-primary {
 	width: 260px;
 	text-align: center;
+}
+.form-group p {
+  font-size:60% !important;
 }
 
 .btn-primary {
